@@ -33,13 +33,13 @@ const App = () => {
       <Text style={styles.title}>
         Example app react-native-push-notification
       </Text>
-      <View style={styles.spacer}></View>
+      <View style={styles.spacer} />
       <TextInput
         style={styles.textField}
         value={registerToken}
         placeholder="Register token"
       />
-      <View style={styles.spacer}></View>
+      <View style={styles.spacer} />
 
       <TouchableOpacity
         style={styles.button}
@@ -133,11 +133,11 @@ const App = () => {
         <Text>popInitialNotification</Text>
       </TouchableOpacity>
 
-      <View style={styles.spacer}></View>
+      <View style={styles.spacer} />
 
       {fcmRegistered && <Text>FCM Configured !</Text>}
 
-      <View style={styles.spacer}></View>
+      <View style={styles.spacer} />
     </View>
   );
 };
